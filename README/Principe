@@ -1,0 +1,20 @@
+Le sudoku
+
+- La somme de chaque ligne, chaque colone, et chaque bloc de 3*3 doit être égale a 45.
+- Interface graphique avec tkinter, avec boutons permettant : 
+    charger une grille (potentiellement en créer une facile, une moyenne et une difficile)
+    activer ou desactiver l'aide qui indique si le chiffre entré correspond
+    un qui permet de verifier la grille a la fin
+    un bouton reset
+
+- L'interface graphique doit permettre d'entrer un chiffre, et être constituée de 9 lignes,
+ 9 colones et subdivisée en 9 blocs.
+
+- certains chiffres doivent être présent dans la grille pour permettre la résolution, et mis de manière aléatoire
+
+- il faut donc :
+    une fonction qui crée la liste qui constituera les colones et lignes
+    une fonction qui vérifie que les entrées sont bonnes
+    une fonction qui permet de generer la grille de 9*9
+
+- en terme de widget, il faut que la personne soit avertie si elle quitte avant de fermer la fenêtre
