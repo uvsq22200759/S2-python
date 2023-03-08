@@ -18,3 +18,16 @@ Le sudoku
     une fonction qui permet de generer la grille de 9*9
 
 - en terme de widget, il faut que la personne soit avertie si elle quitte avant de fermer la fenêtre
+
+
+Explication programme:
+Pour la grille :
+
+column : La colonne dans laquelle placer le widget; 0 par défaut (colonne à gauche).
+
+ipadx, ipady : Combien de pixels pour remplir le widget, horizontalement et verticalement, à l’intérieur des bordures du widget.
+
+padx, pady : Combien de pixels pour remplir le widget, horizontalement et verticalement, à l’extérieur des bordures du widget.
+
+row : La ligne dans laquelle placer le widget; par défaut la première ligne qui est encore vide.
+

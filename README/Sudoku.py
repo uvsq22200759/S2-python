@@ -30,7 +30,5 @@ for i in range(9):
 #    else:
 #            canvas.create_line(0, i*largeur_case, largeur_case, i*largeur_case)
 ########################################################################################################
-from tkinter.messagebox import *
-showwarning("Attention", "Etes vous sur de vouloir quitter ?", option=valeur)
 canvas.pack()
 racine.mainloop()
